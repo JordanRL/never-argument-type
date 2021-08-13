@@ -1,0 +1,1 @@
+# never-argument-type

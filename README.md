@@ -73,6 +73,8 @@ Allow the use of `never` as a type for arguments in interfaces and classes. This
 - `never` cannot be used in an intersection type or union type. Any intersection would reduce to `never`, and any union would reduce `never` out of the union, as `never` is the identity type of unions.
 - Attempting to call code directly that uses the `never` type as an argument would result in a `TypeError`, as no zval will match this type.
 
+This means that an interface or class could **require** that implementers and subclasses declare a type for an argument without restricting that type to anything particular.
+
 ## Backward Incompatible Changes
 
 None

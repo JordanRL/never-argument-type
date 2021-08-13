@@ -64,7 +64,7 @@ While it could be argued that the meaning of `never` was that code using this ty
 
 There are several languages which contain a bottom type, some of which use `never` as their bottom type. The behavior described in this RFC is in fact how `never` behaves and can be used [in TypeScript](https://blog.logrocket.com/when-to-use-never-and-unknown-in-typescript-5e4d6c5799ad/), which also uses `never` as its bottom type.
 
-Scala also uses the bottom type to denote covariant parameter typing, though the bottom type in Scala is `Nothing`.
+Scala also uses the bottom type to denote covariant parameter polymorphism, though the bottom type in Scala is `Nothing`.
 
 ## Proposal
 

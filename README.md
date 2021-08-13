@@ -24,7 +24,7 @@ class B extends A {
 
 Thus, the more specific a type is for an argument in a base class, the more broad it can be in an extending class with the requirement that it must also include the type from the base class.
 
-Since `never` is a [bottom type](https://en.wikipedia.org/wiki/Bottom_type), all other types contain it. This RFC proposes allowing `never` as a valid argument type for methods on interfaces and abstract functions.
+Since `never` is a [bottom type](https://en.wikipedia.org/wiki/Bottom_type) within the PHP engine, all other types contain it. This RFC proposes allowing `never` as a valid argument type for methods on interfaces and abstract functions.
 
 ## Use Cases
 

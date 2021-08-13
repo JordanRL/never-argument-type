@@ -56,7 +56,7 @@ Providing internal interfaces that require a type but do not specify which type 
 
 While it could be argued that the meaning of `never` was that code using this type would terminate, a new type offers several issues over using `never`:
 
-- `never` is already defined as the bottom type in PHP, and having multiple bottom types not only doesn't make sense, but I cannot find a single instance of any programming language having multiple bottom types.
+- `never` already represents the concept of a bottom type in PHP due to its usage with return types. Having multiple bottom types not only doesn't make sense, but I cannot find a single instance of any programming language having multiple bottom types.
 - `never` correctly indicates that the code which uses it for an argument type can never be called directly.
 - This usage has precedence in other languages; see below.
 

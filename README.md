@@ -9,7 +9,7 @@ Arguments in PHP are [contravariant](https://en.wikipedia.org/wiki/Covariance_an
 
 abstract class A {
 
-  public function foo(int $arg);
+  abstract public function foo(int $arg);
 
 }
 

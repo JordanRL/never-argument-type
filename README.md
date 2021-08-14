@@ -117,6 +117,8 @@ https://github.com/php/php-src/pull/7373
 
 ## References
 
-[1]: https://en.wikipedia.org/wiki/Matrix_multiplication#Non-commutativity
+- https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)
+- https://en.wikipedia.org/wiki/Bottom_type
+- https://blog.logrocket.com/when-to-use-never-and-unknown-in-typescript-5e4d6c5799ad/
 
 ## Changelog

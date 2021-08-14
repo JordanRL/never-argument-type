@@ -82,3 +82,41 @@ None
 ## Proposed PHP Version
 
 This change is proposed for PHP 8.2
+
+## RFC Impact
+
+### To SAPIs
+
+None
+
+### To Existing Extensions
+
+None
+
+### To Opcache
+
+None
+
+### New Constants
+
+None
+
+### php.ini Defaults
+
+None
+
+## Proposed Voting Choices
+
+Allow `never` as a parameter type: yes/no. A 2/3 vote is required to pass. 
+
+## Vote
+
+## Patches and Tests
+
+https://github.com/php/php-src/pull/7373
+
+## References
+
+[1]: https://en.wikipedia.org/wiki/Matrix_multiplication#Non-commutativity
+
+## Changelog

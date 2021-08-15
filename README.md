@@ -1,4 +1,4 @@
-# PHP RFC: Never For Argument Types
+# PHP RFC: Never For Parameter Types
 
 
 **THIS DOCUMENT HAS BEEN REPLACED BY THE FULL RFC: https://wiki.php.net/rfc/never_for_parameter_types**

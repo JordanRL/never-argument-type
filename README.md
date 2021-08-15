@@ -1,5 +1,9 @@
 # PHP RFC: Never For Argument Types
 
+
+**THIS DOCUMENT HAS BEEN REPLACED BY THE FULL RFC: https://wiki.php.net/rfc/never_for_parameter_types**
+
+
 ## Introduction
 
 Arguments in PHP are [contravariant](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) to preserve Liskov substitution. This means that if class B extends class A, then redefines a function call, the entire type of that argument from class A must be present in the type of the argument in class B:
